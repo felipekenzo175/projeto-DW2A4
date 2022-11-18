@@ -1,4 +1,4 @@
-import { ArrowLeft, Camera } from "phosphor-react";
+import { ArrowLeft } from "phosphor-react";
 import { FormEvent, useState } from "react";
 import { FeedbackType, feedbackTypes } from "..";
 import { api } from "../../../lib/api";
@@ -29,11 +29,6 @@ export function FeedbackContentStep({
         event.preventDefault();
 
         setIsSendingFeedback(true);
-
-        // console.log({
-        //     screenshot,
-        //     comment,
-        // })
 
         await api.post('/feedbacks', {
             type: feedbackType,
