@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { App } from './App'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Pagina1 } from './components/Goetzhtml/Pagina1';
-import { Pagina2 } from './components/Goetzhtml/Pagina2';
-import { Pagina3 } from './components/Goetzhtml/Pagina3';
-import { Pagina4 } from './components/Goetzhtml/Pagina4';
+import { Pagina1 } from './components/Goetzhtml/PaginaInicial';
+import { Pagina2 } from './components/Goetzhtml/PaginaInformacoes';
+import { Pagina3 } from './components/Goetzhtml/PaginaCoisasNovas';
+import { Pagina4 } from './components/Goetzhtml/PaginaCoisasAntigas';
 import './global.css';
 import './assets/css/Styles.css';
 
